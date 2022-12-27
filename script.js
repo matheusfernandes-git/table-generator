@@ -16,3 +16,8 @@ function gerar(){
         }
     }
  }
+
+ function limpar(){
+    limpar.innerHTML = document.getElementById('n') = ''
+    document.getElementById('seleTab') =''
+ }
