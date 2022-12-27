@@ -1,3 +1,49 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 998px){
+    section{
+        width: 400px;
+        height: 400px;
+    }
+
+    #seleTab{
+        width: 300px;
+        margin-left: 30px;
+    }
     
+    #botao{
+        margin-top: 15px;
+        padding: 7px;
+        width: 120px;
+    }
+
+    footer{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (min-width: 998px) {
+
+    div > h1{
+        font-size: 1.7em;
+    }
+
+    section{
+        width: 400px;
+        height: 400px;
+    }
+
+    #seleTab{
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    #botao{
+        margin-top: 15px;
+        padding: 7px;
+        width: 150px;
+        font-size: 0.7em;
+    }
+
+    footer{
+        margin-top: 300px;
+    }
 }

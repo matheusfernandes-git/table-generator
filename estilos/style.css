@@ -9,11 +9,12 @@ body {
     font: normal 14pt arial;
 }
 
-header {
+div > h1 {
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1.4em;
     color: white;
-    margin-top: 30%;
+    margin: 100px;
+    margin-bottom: 50px;
 }
 
 p{
@@ -22,9 +23,6 @@ p{
 }
 
 section{
-    position: absolute;
-    top: 25%;
-    left: 20%;
     color: #ffffff;
     background: #414c64;
     border-radius: 10px;
@@ -69,7 +67,7 @@ section{
 
 footer {
     text-align: center;
-    margin-top: 700px;
+    margin-top: 330px;
     color:white;
     font-style: italic;
 }
