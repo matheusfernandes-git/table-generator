@@ -18,6 +18,7 @@ function gerar(){
  }
 
  function limpar(){
-    limpar.innerHTML = document.getElementById('n') = ''
-    document.getElementById('seleTab') =''
+    document.getElementById('n').value = ''
+    let tab = document.getElementById('seleTab')
+    tab.innerHTML = ''
  }

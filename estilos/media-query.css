@@ -1,7 +1,16 @@
 @media screen and (min-width: 768px) and (max-width: 998px){
+
+    div > h1{
+        font-size: 1.6em;
+    }
+
     section{
         width: 400px;
-        height: 400px;
+        height: 410px;
+    }
+
+    #n{
+        width: 300px;
     }
 
     #seleTab{
@@ -12,7 +21,12 @@
     #botao{
         margin-top: 15px;
         padding: 7px;
-        width: 120px;
+        width: 250px;
+    }
+
+    #limpar{
+        width: 250px;
+        margin-left: 55px;
     }
 
     footer{
@@ -28,7 +42,11 @@
 
     section{
         width: 400px;
-        height: 400px;
+        height: 410px;
+    }
+
+    #n{
+        width: 300px;
     }
 
     #seleTab{
@@ -39,10 +57,14 @@
     #botao{
         margin-top: 15px;
         padding: 7px;
-        width: 150px;
+        width: 250px;
         font-size: 0.7em;
     }
 
+    #limpar{
+        width: 250px;
+        margin-left: 55px;
+    }
     footer{
         margin-top: 300px;
     }

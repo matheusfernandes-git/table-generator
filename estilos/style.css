@@ -28,7 +28,7 @@ section{
     border-radius: 10px;
     padding: 20px;
     width: 300px;
-    height: 380px;
+    height: 400px;
     margin: auto;
     box-shadow: 2px 3px 4px rgba(15, 15, 15, 0.548);
 }
@@ -44,9 +44,9 @@ section{
 #botao{
     background-color: rgba(103, 223, 103, 0.795);
     color: #ffffff;
-    padding: 6px;
-    margin-top: 10px;
-    width: 80px;
+    padding: 7px;
+    margin-top: 15px;
+    width: 200px;
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.301);
     cursor: pointer;
@@ -57,8 +57,25 @@ section{
     color: #ffffff;
 }
 
+#limpar{
+    background-color: rgba(103, 223, 103, 0.795);
+    color: #ffffff;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+}
+
+#limpar:hover{
+    background-color: rgba(0, 128, 0, 0.836);
+    color: #ffffff;
+}
+
 #seleTab{
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     width: 260px; 
     padding: 9px;
@@ -67,7 +84,7 @@ section{
 
 footer {
     text-align: center;
-    margin-top: 330px;
+    margin-top: 300px;
     color:white;
     font-style: italic;
 }
