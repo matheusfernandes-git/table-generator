@@ -1,22 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    background: rgb(63, 156, 218) ;
+    background-color: #59709c;
     font: normal 14pt arial;
 }
+
 header {
     text-align: center;
+    font-size: 0.7em;
     color: white;
+    margin-top: 30%;
 }
-section{
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.548);
 
+p{
+    font-size: 1.1em;
+    text-align: center;
 }
+
+section{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: #ffffff;
+    background: #414c64;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    box-shadow: 2px 3px 4px rgba(15, 15, 15, 0.548);
+}
+
+#n{
+    padding: 6px;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.301);
+}
+
+#botao{
+    background-color: rgba(103, 223, 103, 0.795);
+    color: #ffffff;
+    padding: 6px;
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: rgba(0, 128, 0, 0.836);
+    color: #ffffff;
+}
+
+#seleTab{
+    margin-top: 30px;
+    text-align: center;
+    width: 260px; 
+    padding: 9px;
+    border-radius: 5px;
+}
+
 footer {
     text-align: center;
+    margin-top: 700px;
     color:white;
     font-style: italic;
 }

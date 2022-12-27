@@ -7,13 +7,14 @@
     <title>Tabuada</title>
     <link rel="shortcut icon" href="faviconn_io/meicon512x512.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
-    <header><h1>Tabuada</h1></header>
+    <header><h1>Gerador de Tabuada</h1></header>
     <section>
         <div>
-            <p>Número: <input type="number" name="n" id="n">
-            <input type="button" value="Gerar Tabuada" onclick="gerar()"></p>
+            <p>Número da Tabuada: <br> <input type="number" name="n" id="n">
+            <input type="button" id="botao" value="Gerar" onclick="gerar()"></p>
         </div>
             <select name="tabuada" id="seleTab" size="10"></select>
         <div>
